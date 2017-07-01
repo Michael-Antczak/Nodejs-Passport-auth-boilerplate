@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Michael Antczak",
@@ -13,6 +14,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mongoose": "^4.11.0",
-    "morgan": "^1.8.2"
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
   }
 }
